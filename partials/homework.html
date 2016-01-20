@@ -1,0 +1,19 @@
+<h3 class="text-center"><b>Homework</b></h3>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Assignment</th>
+        <th>Problems</th>
+        <th>Due</th>
+        <th>Solutions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="item in components">
+        <td>{{item.number}}</td>
+        <td><a href="{{item.url}}">{{item.name}}</a></td>
+        <td>Session {{item.sessionDue}}</td>
+        <td><a href="{{item.solution}}" ng-if="item.solution !== ''">Solution</a></td>
+    </tr>
+    </tbody>
+</table>

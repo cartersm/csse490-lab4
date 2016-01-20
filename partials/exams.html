@@ -1,0 +1,17 @@
+<h3 class="text-center"><b>Exams</b></h3>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Exam</th>
+        <th>Due</th>
+        <th>Sample</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="item in components">
+        <td>{{item.number}}</td>
+        <td>Session {{item.sessionDue}}</td>
+        <td><a href="{{item.url}}">{{item.name}}</a></td>
+    </tr>
+    </tbody>
+</table>

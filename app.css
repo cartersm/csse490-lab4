@@ -1,0 +1,12 @@
+.btn-spaced {
+    margin: 0px 2px;
+    line-height: 30px;
+}
+
+.my-container {
+    padding: 0px 10px;
+}
+
+table {
+    table-layout: fixed;
+}

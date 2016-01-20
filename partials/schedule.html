@@ -1,0 +1,35 @@
+<h3 class="text-center"><b>Schedule Overview</b></h3>
+Quick Links:
+<a ng-repeat="session in sessions" href="#session{{session.session}}" class="btn-info btn-sm btn-spaced">
+    {{session.session}}
+</a>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Week</th>
+        <th>Session</th>
+        <th>Due</th>
+        <th>Topics</th>
+        <th>Resources</th>
+        <th>Reading</th>
+        <th>Programs</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="session in sessions">
+        <td>
+            {{session.week}}
+        </td>
+        <td nowrap>
+            <a name='session{{session.session}}'>{{session.session}}</a><br/>
+            {{session.sessionDate}}
+        </td>
+        <td ng-repeat="comp in componentTypes">
+            <ul >
+                <li ng-repeat="item in getSessionComponent(session, comp)" ng-bind-html="item">
+                </li>
+            </ul>
+        </td>
+    </tr>
+    </tbody>
+</table>
