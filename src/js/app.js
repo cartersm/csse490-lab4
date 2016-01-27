@@ -7,29 +7,30 @@ angular.module('schedulePage', [
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider
             .when('/schedule', {
-                templateUrl: 'partials/schedule.html',
+                templateUrl: '../../partials/schedule.html',
                 controller: 'ScheduleCtrl'
             })
             .when('/homework', {
-                templateUrl: 'partials/homework.html',
+                templateUrl: '../../partials/homework.html',
                 controller: 'HomeworkCtrl'
             })
             .when('/exams', {
-                templateUrl: 'partials/exams.html',
+                templateUrl: '../../partials/exams.html',
                 controller: 'ExamsCtrl'
             })
             .when('/quizzes', {
-                templateUrl: 'partials/quizzes.html',
+                templateUrl: '../../partials/quizzes.html',
                 controller: 'QuizzesCtrl'
             })
             .when('/labs', {
-                templateUrl: 'partials/labs.html',
+                templateUrl: '../../partials/labs.html',
                 controller: 'LabsCtrl'
             })
             .otherwise({
                 redirectTo: '/schedule'
             });
     }])
+    // FIXME: move these to /src/js/controllers.js
     .controller('NavCtrl', ['$scope', '$location', function ($scope, $location) {
         $scope.tabs = ['Schedule', 'Homework', 'Exams', 'Labs', 'Quizzes'];
         var curPath = $location.path().substring(1);
@@ -92,6 +93,7 @@ angular.module('schedulePage', [
         });
     }]);
 
+// FIXME: move these to files and read them in with a service (in /src/js/services.js)
 var sessions = [
     {
         session: 1,
@@ -159,7 +161,7 @@ var sessions = [
                     '<a href="../syllabus.html">Course Syllabus</a>',
                     '<a href="https://docs.mongodb.org/manual/">MongoDB Documentation</a>',
                     '<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">JavaScript Primer</a>',
-                    '<a href="../Assignments/HelloWorldExpressExample.pdf">Hello World Express Exampla</a>',
+                    '<a href="../Assignments/HelloWorldExpressExample.pdf">Hello World Express Example</a>',
                     '<a href="../Assignments/GettingStartedWithMongoDB.pdf">Getting Started with MongoDB</a>'
                 ]
             }
