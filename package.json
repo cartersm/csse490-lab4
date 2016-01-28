@@ -1,11 +1,11 @@
 {
-  "name": "lab3",
+  "name": "SchedulePage",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
     "prestart": "npm install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start karma.conf.js"
   },
   "author": "cartersm",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "express": "^4.13.3"
   },
   "devDependencies": {
+    "angular-mocks": "^1.4.9",
     "jasmine-core": "^2.4.1",
     "jscs": "^2.9.0",
     "jscs-angular": "^1.2.1",

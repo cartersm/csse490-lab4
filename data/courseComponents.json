@@ -1,0 +1,38 @@
+[
+  {
+    "type": "Homework",
+    "name": "Homework 1",
+    "number": 1,
+    "dueDate": "Wednesday Dec 9",
+    "url": "",
+    "solution": "",
+    "sample": ""
+  },
+  {
+    "type": "Lab",
+    "name": "Schedule Object",
+    "number": 1,
+    "dueDate": "Thursday Dec 3",
+    "url": "../Assignments/SchedulerLab.pdf",
+    "solution": "",
+    "sample": ""
+  },
+  {
+    "type": "Exam",
+    "name": "Exam 1",
+    "number": 2,
+    "dueDate": "Wednesday Jan 27",
+    "url": "",
+    "solution": "",
+    "sample": ""
+  },
+  {
+    "type": "Quiz",
+    "name": "Quiz 3",
+    "number": 3,
+    "dueDate": "Monday Jan 4",
+    "url": "",
+    "solution": "",
+    "sample": ""
+  }
+]

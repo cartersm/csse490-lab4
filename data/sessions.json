@@ -1,0 +1,379 @@
+[
+  {
+    "session": 1,
+    "sessionDate": "Monday Nov 30",
+    "week": 1,
+    "scheduleComponents": [
+      {
+        "name": "Due",
+        "values": [
+          "Nothing due before the 1st class.",
+          "Always look at the Programs column for the programming assignment of the week."
+        ]
+      },
+      {
+        "name": "Topics",
+        "values": [
+          "Brief course introduction",
+          "REST architecture style",
+          "Introduction to the MEAN technology stack",
+          "Installing editor, Node.js and Express.js"
+        ]
+      },
+      {
+        "name": "Resources",
+        "values": [
+          "Slides",
+          "Node.js",
+          "Node Package Manager (npm)"
+        ]
+      },
+      {
+        "name": "Reading",
+        "values": [
+          "Representational State Transfer (REST)",
+          "Learn REST: a RESTful Tutorial"
+        ]
+      }
+    ]
+  },
+  {
+    "session": 2,
+    "sessionDate": "Wednesday Dec 2",
+    "week": 1,
+    "scheduleComponents": [
+      {
+        "name": "Topics",
+        "values": [
+          "Review of course syllabus",
+          "Brief introduction to Express.js",
+          "MongoDB installation",
+          "Getting started with MongoDB"
+        ]
+      },
+      {
+        "name": "Resources",
+        "values": [
+          "<a href=\"../Slides/Introductions.pdf\">Slides</a>",
+          "<a href=\"http://expressjs.com/starter/installing.html\">Express Installation</a>",
+          "<a href=\"https://docs.mongodb.org/manual/installation/\">MongoDB installation</a>"
+        ]
+      },
+      {
+        "name": "Reading",
+        "values": [
+          "<a href=\"../syllabus.html\">Course Syllabus</a>",
+          "<a href=\"https://docs.mongodb.org/manual/\">MongoDB Documentation</a>",
+          "<a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript\">JavaScript Primer</a>",
+          "<a href=\"../Assignments/HelloWorldExpressExample.pdf\">Hello World Express Example</a>",
+          "<a href=\"../Assignments/GettingStartedWithMongoDB.pdf\">Getting Started with MongoDB</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "session": 3,
+    "sessionDate": "Thursday Dec 3",
+    "week": 1,
+    "scheduleComponents": [
+      {
+        "name": "Topics",
+        "values": [
+          "JavaScript Primer",
+          "JavaScript History",
+          "JavaScript Types",
+          "Objects in JavaScript",
+          "Object Prototype"
+        ]
+      },
+      {
+        "name": "Resources",
+        "values": [
+          "Slides"
+        ]
+      },
+      {
+        "name": "Reading",
+        "values": [
+          "A reintroduction to JavaScript",
+          "Prototypal Inheritance"
+        ]
+      },
+      {
+        "name": "Programs",
+        "values": [
+          "Lab 1 Build a session schedule. You can use http://www.jsonlint.com to validate your JSON objects."
+        ]
+      }
+    ]
+  },
+  {
+    "session": 4,
+    "sessionDate": "Monday Dec 7",
+    "week": 2,
+    "scheduleComponents": [
+      {
+        "name": "Topics",
+        "values": [
+          "Arrays in JavaScript",
+          "JavaScript Functions",
+          "Closures in JavaScript"
+        ]
+      },
+      {
+        "name": "Resources",
+        "values": [
+          "Slides"
+        ]
+      },
+      {
+        "name": "Reading",
+        "values": [
+          "Invocation Patterns in JavaScript",
+          "Closures"
+        ]
+      }
+    ]
+  },
+  {
+    "session": 5,
+    "sessionDate": "Wednesday Dec 9",
+    "week": 2,
+    "scheduleComponents": [
+      {
+        "name": "Due",
+        "values": [
+          "Lab 1 due at the start of class. Be prepared to demo your solution to your instructor at the start of class."
+        ]
+      },
+      {
+        "name": "Topics",
+        "values": [
+          "Introduction to AngularJS",
+          "Directives",
+          "Modules",
+          "Expressions",
+          "Controllers"
+        ]
+      },
+      {
+        "name": "Resources",
+        "values": [
+          "Slides"
+        ]
+      },
+      {
+        "name": "Reading",
+        "values": [
+          "AngularJS API Documentation",
+          "Angular Style Guide",
+          "CSS Bootstrap"
+        ]
+      }
+    ]
+  },
+  {
+    "session": 6,
+    "sessionDate": "Thursday Dec 10",
+    "week": 2,
+    "scheduleComponents": [
+      {
+        "name": "Topics",
+        "values": [
+          "More Directives",
+          "Filters"
+        ]
+      },
+      {
+        "name": "Resources",
+        "values": [
+          "Slides"
+        ]
+      },
+      {
+        "name": "Reading",
+        "values": [
+          "AngularJS Filters"
+        ]
+      },
+      {
+        "name": "Programs",
+        "values": [
+          "Lab 2 Build an AngularJS course scheduler application."
+        ]
+      }
+    ]
+  },
+  {
+    "session": 7,
+    "sessionDate": "Monday Dec 14",
+    "week": 3,
+    "scheduleComponents": [
+      {
+        "name": "Topics",
+        "values": [
+          "Tabs",
+          "Forms",
+          "Models"
+        ]
+      },
+      {
+        "name": "Resources",
+        "values": [
+          "Slides"
+        ]
+      },
+      {
+        "name": "Reading",
+        "values": [
+          "Bootstrap Forms"
+        ]
+      }
+    ]
+  },
+  {
+    "session": 8,
+    "sessionDate": "Wednesday Dec 16",
+    "week": 3,
+    "scheduleComponents": []
+  },
+  {
+    "session": 9,
+    "sessionDate": "Thursday Dec 17",
+    "week": 3,
+    "scheduleComponents": [
+      {
+        "name": "Due",
+        "values": [
+          "Lab 2 Due at start of class."
+        ]
+      }
+    ]
+  },
+  {
+    "session": 10,
+    "sessionDate": "Monday Jan 4",
+    "week": 4,
+    "scheduleComponents": []
+  },
+  {
+    "session": 11,
+    "sessionDate": "Wednesday Jan 6",
+    "week": 4,
+    "scheduleComponents": []
+  },
+  {
+    "session": 12,
+    "sessionDate": "Thursday Jan 7",
+    "week": 4,
+    "scheduleComponents": []
+  },
+  {
+    "session": 13,
+    "sessionDate": "Monday Jan 11",
+    "week": 5,
+    "scheduleComponents": []
+  },
+  {
+    "session": 14,
+    "sessionDate": "Wednesday Jan 13",
+    "week": 5,
+    "scheduleComponents": []
+  },
+  {
+    "session": 15,
+    "sessionDate": "Thursday Jan 14",
+    "week": 5,
+    "scheduleComponents": []
+  },
+  {
+    "session": 16,
+    "sessionDate": "Monday Jan 18",
+    "week": 6,
+    "scheduleComponents": []
+  },
+  {
+    "session": 17,
+    "sessionDate": "Wednesday Jan 20",
+    "week": 6,
+    "scheduleComponents": []
+  },
+  {
+    "session": 18,
+    "sessionDate": "Thursday Jan 21",
+    "week": 6,
+    "scheduleComponents": []
+  },
+  {
+    "session": 19,
+    "sessionDate": "Monday Jan 25",
+    "week": 7,
+    "scheduleComponents": []
+  },
+  {
+    "session": 20,
+    "sessionDate": "Wednesday Jan 27",
+    "week": 7,
+    "scheduleComponents": []
+  },
+  {
+    "session": 21,
+    "sessionDate": "Thursday Jan 28",
+    "week": 7,
+    "scheduleComponents": []
+  },
+  {
+    "session": 22,
+    "sessionDate": "Monday Feb 1",
+    "week": 8,
+    "scheduleComponents": []
+  },
+  {
+    "session": 23,
+    "sessionDate": "Wednesday Feb 3",
+    "week": 8,
+    "scheduleComponents": []
+  },
+  {
+    "session": 24,
+    "sessionDate": "Thursday Feb 4",
+    "week": 8,
+    "scheduleComponents": []
+  },
+  {
+    "session": 25,
+    "sessionDate": "Monday Feb 8",
+    "week": 9,
+    "scheduleComponents": []
+  },
+  {
+    "session": 26,
+    "sessionDate": "Wednesday Feb 10",
+    "week": 9,
+    "scheduleComponents": []
+  },
+  {
+    "session": 27,
+    "sessionDate": "Thursday Feb 11",
+    "week": 9,
+    "scheduleComponents": []
+  },
+  {
+    "session": 28,
+    "sessionDate": "Monday Feb 15",
+    "week": 10,
+    "scheduleComponents": []
+  },
+  {
+    "session": 29,
+    "sessionDate": "Wednesday Feb 17",
+    "week": 10,
+    "scheduleComponents": []
+  },
+  {
+    "session": 30,
+    "sessionDate": "Thursday Feb 18",
+    "week": 10,
+    "scheduleComponents": []
+  }
+]
